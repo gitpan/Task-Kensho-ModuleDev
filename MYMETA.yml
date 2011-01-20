@@ -1,0 +1,33 @@
+---
+abstract: 'A glimpse at an Enlightened Perl (module development tools).'
+author:
+  - 'Chris Prather <chris@prather.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 0
+distribution_type: module
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.5707'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-Kensho-ModuleDev
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  CPAN::Uploader: 0
+  Carp::Always: 0
+  Devel::NYTProf: 0
+  Dist::Zilla: 0
+  Modern::Perl: 0
+  Module::Install: 0
+  Perl::Critic: 0
+  Perl::Tidy: 0
+  Perl::Version: 0
+  Pod::Readme: 0
+  Software::License: 0
+version: 0.27
