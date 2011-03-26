@@ -30,4 +30,4 @@ requires:
   Perl::Version: 0
   Pod::Readme: 0
   Software::License: 0
-version: 0.27
+version: 0.28
