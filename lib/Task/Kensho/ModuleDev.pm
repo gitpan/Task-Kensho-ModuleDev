@@ -1,32 +1,45 @@
-package Task::Kensho::ModuleDev;
 use strict;
-our $VERSION = '0.28';
+use warnings;
+package Task::Kensho::ModuleDev;
+BEGIN {
+  $Task::Kensho::ModuleDev::AUTHORITY = 'cpan:PERIGRIN';
+}
+# git description: v0.34-TRIAL-41-g70f23a5
+$Task::Kensho::ModuleDev::VERSION = '0.34001'; # TRIAL
+# ABSTRACT: Module Development
 
 __END__
 
-=encoding utf-8
+=pod
+
+=encoding UTF-8
 
 =head1 NAME
 
-Task::Kensho::ModuleDev - A Glimpse at an Enlightened Perl (ModuleDev)
+Task::Kensho::ModuleDev - Module Development
 
 =head1 VERSION
 
-This document describes Task::Kensho::ModuleDev version 0.28
+version 0.34001
 
 =head1 SYNOPSIS
 
-    > cpan Task::Kensho::ModuleDev
+    > cpanm --interactive Task::Kensho::ModuleDev
 
-=head1 DESCRIPTION,
+=head1 DESCRIPTION
+
+=for stopwords Buddhism EPO Kenshō nonduality amongst Organisation installable
 
 From L<http://en.wikipedia.org/wiki/Kensho>:
 
-    Kenshō (見性) (C. Wu) is a Japanese term for enlightenment
-    experiences—most commonly used within the confines of Zen
-    Buddhism—literally meaning "seeing one's nature"[1] or "true
-    self."[2] It generally "refers to the realization of nonduality of
-    subject and object."[3]
+=over 4
+
+Kenshō (見性) (C. Wu) is a Japanese term for enlightenment
+experiences - most commonly used within the confines of Zen
+Buddhism - literally meaning "seeing one's nature"[1] or "true
+self."[2] It generally "refers to the realization of nonduality of
+
+=back
 
 Task::Kensho is a first cut at building a list of recommended modules
 for Enlightened Perl development. CPAN is wonderful, but there are too
@@ -52,51 +65,53 @@ beginning of its section in this documentation.
 
 =head2 Module Development: Task::Kensho::ModuleDev
 
-=over
+=for stopwords profiler templated
 
-=item L<Dist::Zilla|Dist::Zilla>
+=over 4
 
-Builds distributions of code to be uploaded to the CPAN.
+=item L<CPAN::Uploader>
 
-=item L<Module::Install|Module::Install>
+Upload things to the CPAN
 
-Standalone, extensible Perl module installer
-
-=item L<Devel::NYTProf|Devel::NYTProf>
-
-Powerful feature-rich perl source code profiler
-
-=item L<Perl::Tidy|Perl::Tidy>
-
-Parses and beautifies perl source
-
-=item L<Perl::Critic|Perl::Critic>
-
-Critique Perl source code for best-practices.
-
-=item L<Carp::Always|Carp::Always>
+=item L<Carp::Always>
 
 Warns and dies noisily with stack backtraces
 
-=item L<Modern::Perl|Modern::Perl>
+=item L<Devel::NYTProf>
+
+Powerful feature-rich perl source code profiler
+
+=item L<Dist::Zilla>
+
+Builds distributions of code to be uploaded to the CPAN.
+
+=item L<Modern::Perl>
 
 enable all of the features of Modern Perl with one command
 
-=item L<Perl::Version|Perl::Version>
+=item L<Module::Install>
+
+Standalone, extensible Perl module installer
+
+=item L<Perl::Critic>
+
+Critique Perl source code for best-practices.
+
+=item L<Perl::Tidy>
+
+Parses and beautifies perl source
+
+=item L<Perl::Version>
 
 Parse and manipulate Perl version strings
 
-=item L<Software::License|Software::License>
-
-Packages that provide templated software licenses
-
-=item L<Pod::Readme|Pod::Readme>
+=item L<Pod::Readme>
 
 Convert POD to README file
 
-=item L<CPAN::Uploader|CPAN::Uploader>
+=item L<Software::License>
 
-Upload things to the CPAN
+Packages that provide templated software licenses
 
 =back
 
@@ -109,13 +124,13 @@ to track the changes in Task::Kensho.
 =head1 BUGS AND LIMITATIONS
 
 This list is by no means comprehensive of the "Good" Modules on CPAN.
-Nor is this neccessarily the correct path for all developers. Each of
+Nor is this necessarily the correct path for all developers. Each of
 these modules has a perfectly acceptable replacement that may work
-better for you. This is however a path to good perl practics, and a
+better for you. This is however a path to good perl practice, and a
 starting place on the road to Enlightened Perl programming.
 
 Please report any bugs or feature requests to
-C<bug-task-kensho-moduledev@rt.cpan.org>, or through the web interface at
+C<bug-task-kensho@rt.cpan.org>, or through the web interface at
 L<http://rt.cpan.org>.
 
 =head1 SEE ALSO
@@ -125,12 +140,13 @@ L<Perl::Dist::Strawberry|Perl::Dist::Strawberry>
 
 =head1 AUTHOR
 
-Chris Prather  C<< <chris@prather.org> >>
+Chris Prather <chris@prather.org>
 
-=head1 LICENCE AND COPYRIGHT
+=head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2008, 2009, Chris Prather C<< <chris@prather.org> >>. Some
-rights reserved.
+This software is copyright (c) 2008 by Chris Prather.
 
-This module is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself. See L<perlartistic>.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
