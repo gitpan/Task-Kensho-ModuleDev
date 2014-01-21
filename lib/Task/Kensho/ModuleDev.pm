@@ -4,8 +4,8 @@ package Task::Kensho::ModuleDev;
 BEGIN {
   $Task::Kensho::ModuleDev::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34-TRIAL-41-g70f23a5
-$Task::Kensho::ModuleDev::VERSION = '0.34001'; # TRIAL
+# git description: v0.34001-TRIAL-15-g4bd2afa
+$Task::Kensho::ModuleDev::VERSION = '0.34002'; # TRIAL
 # ABSTRACT: Module Development
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::ModuleDev - Module Development
 
 =head1 VERSION
 
-version 0.34001
+version 0.34002
 
 =head1 SYNOPSIS
 
