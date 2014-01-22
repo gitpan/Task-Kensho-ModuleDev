@@ -4,8 +4,8 @@ package Task::Kensho::ModuleDev;
 BEGIN {
   $Task::Kensho::ModuleDev::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34002-TRIAL-20-gae11a02
-$Task::Kensho::ModuleDev::VERSION = '0.34003'; # TRIAL
+# git description: v0.34003-TRIAL-14-gf286ecf
+$Task::Kensho::ModuleDev::VERSION = '0.34004'; # TRIAL
 # ABSTRACT: A Glimpse at an Enlightened Perl: Module Development
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::ModuleDev - A Glimpse at an Enlightened Perl: Module Development
 
 =head1 VERSION
 
-version 0.34003
+version 0.34004
 
 =head1 SYNOPSIS
 

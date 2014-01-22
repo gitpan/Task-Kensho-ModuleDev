@@ -4,7 +4,7 @@ Task::Kensho::ModuleDev - A Glimpse at an Enlightened Perl: Module Development
 
 # VERSION
 
-version 0.34003
+version 0.34004
 
 # SYNOPSIS
 
