@@ -1,10 +1,10 @@
 # NAME
 
-Task::Kensho::ModuleDev - Module Development
+Task::Kensho::ModuleDev - A Glimpse at an Enlightened Perl: Module Development
 
 # VERSION
 
-version 0.34002
+version 0.34003
 
 # SYNOPSIS
 
@@ -18,80 +18,96 @@ From [http://en.wikipedia.org/wiki/Kensho](http://en.wikipedia.org/wiki/Kensho):
 > experiences - most commonly used within the confines of Zen
 > Buddhism - literally meaning "seeing one's nature"\[1\] or "true
 > self."\[2\] It generally "refers to the realization of nonduality of
+> subject and object."\[3\]
 
-Task::Kensho is a first cut at building a list of recommended modules
+[Task::Kensho](https://metacpan.org/pod/Task::Kensho) is a first cut at building a list of recommended modules
 for Enlightened Perl development. CPAN is wonderful, but there are too
 many wheels and you have to pick and choose amongst the various
 competing technologies.
 
-The plan is for Task::Kensho to be a rough testing ground for ideas that
+The plan is for [Task::Kensho](https://metacpan.org/pod/Task::Kensho) to be a rough testing ground for ideas that
 go into among other things the Enlightened Perl Organisation Extended
 Core (EPO-EC).
 
-The modules that are bundled by Task::Kensho are broken down into
+The modules that are bundled by [Task::Kensho](https://metacpan.org/pod/Task::Kensho) are broken down into
 several categories and are still being considered. They are all taken
 from various top 100 most used perl modules lists and from discussions
 with various subject matter experts in the Perl Community. That said,
 this bundle does _not_ follow the guidelines established for the EPO-EC
 for peer review via industry advisers.
 
-Starting in 2011, Task::Kensho split its sub-groups of modules into
-individually-installable tasks. These individual tasks will always install all
-their modules by default. This facilitates the ease and simplicity the
-distribution aims to achieve. Each Task::Kensho sub-task is listed at the
+Starting in 2011, [Task::Kensho](https://metacpan.org/pod/Task::Kensho) split its sub-groups of modules into
+individually-installable tasks.  Each [Task::Kensho](https://metacpan.org/pod/Task::Kensho) sub-task is listed at the
 beginning of its section in this documentation.
 
-## Module Development: Task::Kensho::ModuleDev
+When installing [Task::Kensho](https://metacpan.org/pod/Task::Kensho) itself, you will be asked to install each
+sub-task in turn, or you can install individual tasks separately. These
+individual tasks will always install all their modules by default. This
+facilitates the ease and simplicity the distribution aims to achieve.
 
-- [CPAN::Uploader](https://metacpan.org/pod/CPAN::Uploader)
+# RECOMMENDED MODULES
 
-    Upload things to the CPAN
+## [Task::Kensho::ModuleDev](https://metacpan.org/pod/Task::Kensho::ModuleDev): Module Development
 
-- [Carp::Always](https://metacpan.org/pod/Carp::Always)
+### [CPAN::Uploader](https://metacpan.org/pod/CPAN::Uploader)
 
-    Warns and dies noisily with stack backtraces
+Upload things to the CPAN
 
-- [Devel::NYTProf](https://metacpan.org/pod/Devel::NYTProf)
+### [Carp::Always](https://metacpan.org/pod/Carp::Always)
 
-    Powerful feature-rich perl source code profiler
+Warns and dies noisily with stack backtraces
 
-- [Dist::Zilla](https://metacpan.org/pod/Dist::Zilla)
+### [Devel::NYTProf](https://metacpan.org/pod/Devel::NYTProf)
 
-    Builds distributions of code to be uploaded to the CPAN.
+Powerful feature-rich perl source code profiler
 
-- [Modern::Perl](https://metacpan.org/pod/Modern::Perl)
+### [Dist::Zilla](https://metacpan.org/pod/Dist::Zilla)
 
-    enable all of the features of Modern Perl with one command
+Builds distributions of code to be uploaded to the CPAN.
 
-- [Module::Install](https://metacpan.org/pod/Module::Install)
+### [Modern::Perl](https://metacpan.org/pod/Modern::Perl)
 
-    Standalone, extensible Perl module installer
+enable all of the features of Modern Perl with one command
 
-- [Perl::Critic](https://metacpan.org/pod/Perl::Critic)
+### [Module::Install](https://metacpan.org/pod/Module::Install)
 
-    Critique Perl source code for best-practices.
+Standalone, extensible Perl module installer
 
-- [Perl::Tidy](https://metacpan.org/pod/Perl::Tidy)
+### [Perl::Critic](https://metacpan.org/pod/Perl::Critic)
 
-    Parses and beautifies perl source
+Critique Perl source code for best-practices.
 
-- [Perl::Version](https://metacpan.org/pod/Perl::Version)
+### [Perl::Tidy](https://metacpan.org/pod/Perl::Tidy)
 
-    Parse and manipulate Perl version strings
+Parses and beautifies perl source
 
-- [Pod::Readme](https://metacpan.org/pod/Pod::Readme)
+### [Perl::Version](https://metacpan.org/pod/Perl::Version)
 
-    Convert POD to README file
+Parse and manipulate Perl version strings
 
-- [Software::License](https://metacpan.org/pod/Software::License)
+### [Pod::Readme](https://metacpan.org/pod/Pod::Readme)
 
-    Packages that provide templated software licenses
+Convert POD to README file
+
+### [Software::License](https://metacpan.org/pod/Software::License)
+
+Packages that provide templated software licenses
+
+# INSTALLING
+
+Since version 0.34, [Task::Kensho](https://metacpan.org/pod/Task::Kensho) has made use of the `optional_features` field
+in distribution metadata. This allows CPAN clients to interact with you
+regarding which modules you wish to install.
+
+The `cpanm` client requires interactive mode to be enabled for this to work:
+
+    cpanm --interactive Task-Kensho
 
 # RELEASE SCHEDULE
 
-Starting with release 0.18 Task::Kensho was moved to a monthly release
+Starting with release 0.18, [Task::Kensho](https://metacpan.org/pod/Task::Kensho) was moved to a monthly release
 cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in Task::Kensho.
+to track the changes in [Task::Kensho](https://metacpan.org/pod/Task::Kensho).
 
 # BUGS AND LIMITATIONS
 
@@ -102,8 +118,7 @@ better for you. This is however a path to good perl practice, and a
 starting place on the road to Enlightened Perl programming.
 
 Please report any bugs or feature requests to
-`bug-task-kensho@rt.cpan.org`, or through the web interface at
-[http://rt.cpan.org](http://rt.cpan.org).
+[https://github.com/EnlightenedPerlOrganisation/task-kensho/issues](https://github.com/EnlightenedPerlOrganisation/task-kensho/issues).
 
 # SEE ALSO
 
