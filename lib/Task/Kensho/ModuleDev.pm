@@ -4,8 +4,8 @@ package Task::Kensho::ModuleDev;
 BEGIN {
   $Task::Kensho::ModuleDev::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34003-TRIAL-14-gf286ecf
-$Task::Kensho::ModuleDev::VERSION = '0.34004'; # TRIAL
+# git description: v0.34004-TRIAL-29-gda0fbe3
+$Task::Kensho::ModuleDev::VERSION = '0.35';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Module Development
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::ModuleDev - A Glimpse at an Enlightened Perl: Module Development
 
 =head1 VERSION
 
-version 0.34004
+version 0.35
 
 =head1 SYNOPSIS
 
@@ -93,9 +93,9 @@ Builds distributions of code to be uploaded to the CPAN.
 
 enable all of the features of Modern Perl with one command
 
-=head3 L<Module::Install>
+=head3 L<Module::Build::Tiny>
 
-Standalone, extensible Perl module installer
+A simple, lightweight, drop-in replacement for ExtUtils::MakeMaker or Module::Build
 
 =head3 L<Perl::Critic>
 
@@ -126,12 +126,6 @@ regarding which modules you wish to install.
 The C<cpanm> client requires interactive mode to be enabled for this to work:
 
     cpanm --interactive Task-Kensho
-
-=head1 RELEASE SCHEDULE
-
-Starting with release 0.18, L<Task::Kensho> was moved to a monthly release
-cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in L<Task::Kensho>.
 
 =head1 BUGS AND LIMITATIONS
 

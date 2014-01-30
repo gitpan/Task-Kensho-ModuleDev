@@ -4,7 +4,7 @@ Task::Kensho::ModuleDev - A Glimpse at an Enlightened Perl: Module Development
 
 # VERSION
 
-version 0.34004
+version 0.35
 
 # SYNOPSIS
 
@@ -69,9 +69,9 @@ Builds distributions of code to be uploaded to the CPAN.
 
 enable all of the features of Modern Perl with one command
 
-### [Module::Install](https://metacpan.org/pod/Module::Install)
+### [Module::Build::Tiny](https://metacpan.org/pod/Module::Build::Tiny)
 
-Standalone, extensible Perl module installer
+A simple, lightweight, drop-in replacement for ExtUtils::MakeMaker or Module::Build
 
 ### [Perl::Critic](https://metacpan.org/pod/Perl::Critic)
 
@@ -102,12 +102,6 @@ regarding which modules you wish to install.
 The `cpanm` client requires interactive mode to be enabled for this to work:
 
     cpanm --interactive Task-Kensho
-
-# RELEASE SCHEDULE
-
-Starting with release 0.18, [Task::Kensho](https://metacpan.org/pod/Task::Kensho) was moved to a monthly release
-cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in [Task::Kensho](https://metacpan.org/pod/Task::Kensho).
 
 # BUGS AND LIMITATIONS
 
