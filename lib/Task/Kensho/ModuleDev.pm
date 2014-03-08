@@ -4,8 +4,8 @@ package Task::Kensho::ModuleDev;
 BEGIN {
   $Task::Kensho::ModuleDev::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34004-TRIAL-29-gda0fbe3
-$Task::Kensho::ModuleDev::VERSION = '0.35';
+# git description: v0.35-32-g8d529eb
+$Task::Kensho::ModuleDev::VERSION = '0.36';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Module Development
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::ModuleDev - A Glimpse at an Enlightened Perl: Module Development
 
 =head1 VERSION
 
-version 0.35
+version 0.36
 
 =head1 SYNOPSIS
 
@@ -42,7 +42,7 @@ subject and object."[3]
 
 =back
 
-L<Task::Kensho> is a first cut at building a list of recommended modules
+L<Task::Kensho> is a list of recommended modules
 for Enlightened Perl development. CPAN is wonderful, but there are too
 many wheels and you have to pick and choose amongst the various
 competing technologies.
@@ -125,7 +125,7 @@ regarding which modules you wish to install.
 
 The C<cpanm> client requires interactive mode to be enabled for this to work:
 
-    cpanm --interactive Task-Kensho
+    cpanm --interactive Task::Kensho::ModuleDev
 
 =head1 BUGS AND LIMITATIONS
 
