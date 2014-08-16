@@ -1,11 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::ModuleDev;
-BEGIN {
-  $Task::Kensho::ModuleDev::AUTHORITY = 'cpan:PERIGRIN';
-}
-# git description: v0.35-32-g8d529eb
-$Task::Kensho::ModuleDev::VERSION = '0.36';
+# git description: v0.36-29-g3b81a50
+$Task::Kensho::ModuleDev::VERSION = '0.37';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Module Development
 
 __END__
@@ -20,7 +17,7 @@ Task::Kensho::ModuleDev - A Glimpse at an Enlightened Perl: Module Development
 
 =head1 VERSION
 
-version 0.36
+version 0.37
 
 =head1 SYNOPSIS
 
@@ -69,17 +66,25 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 =head1 RECOMMENDED MODULES
 
-=head2 L<Task::Kensho::ModuleDev>: Module Development
-
 =for stopwords profiler templated
+
+=head2 L<Task::Kensho::ModuleDev>: Module Development
 
 =head3 L<CPAN::Uploader>
 
 Upload things to the CPAN
 
-=head3 L<Carp::Always>
+=head3 L<Data::Printer>
 
-Warns and dies noisily with stack backtraces
+Colored pretty-print of Perl data structures and objects
+
+=head3 L<Devel::Confess>
+
+Include stack traces on all warnings and errors
+
+=head3 L<Devel::Dwarn>
+
+Combine warns and Data::Dumper::Concise
 
 =head3 L<Devel::NYTProf>
 
@@ -153,5 +158,25 @@ This software is copyright (c) 2008 by Chris Prather.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
+
+=head1 CONTRIBUTORS
+
+=for stopwords Karen Etheridge Leo Lapworth Chris Nehren
+
+=over 4
+
+=item *
+
+Karen Etheridge <ether@cpan.org>
+
+=item *
+
+Leo Lapworth <leo@cuckoo.org>
+
+=item *
+
+Chris Nehren <apeiron@cpan.org>
+
+=back
 
 =cut
