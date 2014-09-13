@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::ModuleDev;
-# git description: v0.36-29-g3b81a50
-$Task::Kensho::ModuleDev::VERSION = '0.37';
+# git description: v0.37-31-gef8a27f
+$Task::Kensho::ModuleDev::VERSION = '0.38';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Module Development
 
 __END__
@@ -17,7 +17,7 @@ Task::Kensho::ModuleDev - A Glimpse at an Enlightened Perl: Module Development
 
 =head1 VERSION
 
-version 0.37
+version 0.38
 
 =head1 SYNOPSIS
 
